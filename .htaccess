@@ -1,0 +1,6 @@
+#Alternate default index page
+#DirectoryIndex coming_soon.php
+
+php_value short_open_tag 1
+
+php_value error_reporting 2039
