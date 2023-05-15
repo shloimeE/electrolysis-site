@@ -76,7 +76,7 @@ require_once 'configs.php';
             <ul class="navbar-nav reg-navs">
                 <?foreach($header_links as $key => $data):?>
                     <li class="nav-item">
-                        <a class="nav-link <?=$this_page==$key?'active-nav':''?>" href="<?=BASE_PATH.$data['link']?>"><?=$data['display_name']?></a>
+                        <a class="nav-link <?=$this_page==$key?'active-nav':''?>" href="<?=$data['link']?>"><?=$data['display_name']?></a>
                     </li>    
                 <?endforeach;?>
             </ul>
